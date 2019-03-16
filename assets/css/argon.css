@@ -2314,12 +2314,13 @@ pre code
 .table-responsive
 {
     display: block;
-    overflow-x: auto;
+    overflow-x: hidden;
 
-    width: 100%;
+    width: 675px;
 
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin: 0px -22px 0px -22px !important;
 }
 .table-responsive > .table-bordered
 {
@@ -6675,6 +6676,8 @@ input[type='button'].btn-block
 .media-body
 {
     flex: 1 1;
+    text-align: left !important;
+    padding-left:10px;
 }
 
 .list-group
